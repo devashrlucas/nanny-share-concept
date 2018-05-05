@@ -1,15 +1,38 @@
 body {
-    background-color: yellow;
+    background-color: rgba(207, 197, 140, 0.383);
+    margin: 10%;
+    text-align: center;
 }
 
 .header {
     background-color: green;
 }   
 
-.nav {
-    background-color: orange;
+
+.content {
+    text-align: left;
+}
+
+.forms {
+
 }
 
 .footer {
-    background-color: grey;
+    
+}
+
+#note {
+    font-style: italic;
+} 
+
+
+ul {
+       background-color: grey;
+}
+
+.nav-items li {
+    display: inline;
+    margin: 2%;
+    width: 100%;
+    
 }
