@@ -1,16 +1,29 @@
-body {
-    background-color: rgba(207, 197, 140, 0.383);
-    margin: 10%;
-    text-align: center;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
+body {
+    background-color: rgba(252, 251, 227, .225);
+    text-align: center;
+    margin; 0 auto;
+    width: 100%;  
+    
+}
+
 
 .header {
     background-color: green;
+    width: 100%; 
+    top: 0;
+    padding: 1%;
 }   
 
 
 .content {
+    margin: 5%;
     text-align: left;
+    
 }
 
 .forms {
@@ -18,7 +31,7 @@ body {
 }
 
 .footer {
-    
+
 }
 
 #note {
@@ -27,7 +40,7 @@ body {
 
 
 ul {
-       background-color: grey;
+     background-color: grey;
 }
 
 .nav-items li {
