@@ -22,6 +22,52 @@
             <p id="note">Please note: this nanny share program only serves residents of the Westwood Heights neighborhood. Please contact the Westwood Heights neighborhood association before enrolling if you are unsure as to whether your home address qualifies you for this program.</p>
         </div>
         <div class="forms">
+            <p>All fields are required</p><br>
+            <form id="registration" action="/submitted.html" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="last-name">First name:</label>
+                    <br>
+                    <input type="text" id="first-name" name="full_name">
+                    <br>
+                    <br>
+                    <label for="last-name">Last name:</label>
+                    <br>
+                    <input type="text" id="last-name" name="full_name">
+                    <br>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Address Details</legend>
+                    <label for="address">Address:</label>
+                    <br>
+                    <input type="text" id="address" name="address"><br>
+                    <br>
+                    <label for="city">City:</label>
+                    <br>
+                    <input type="text" id="city" name="address"><br>
+                    <br>
+                    <label for="state">State:</label>
+                    <br>
+                    <input type="text" id="state" name="address"><br>
+                    <br>
+                    <label for="zip_code">Zip code:</label>
+                    <br>
+                    <input type="text" id="zip_code" name="address"><br>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="phone-number">Phone number:</label>
+                    <br>
+                    <input type="tel" id="phone_number" name="contact_info"><br>
+                    <br>
+                    <label for="email_address">Email address:</label>
+                    <br>
+                    <input type="email" id="email-address" name="contact_info">
+                    <br>
+                </fieldset>            
+            </form>
         </div>
         <div class="footer">
             <ul class="nav-items">
