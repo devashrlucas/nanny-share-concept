@@ -76,5 +76,11 @@ body {
 
 .forms label{ 
     width:150px; 
-    display: inline-block; 
+    
+}
+
+input[type="radio"] { 
+    width: 5px;
+    
+    margin: 3%;
 }
