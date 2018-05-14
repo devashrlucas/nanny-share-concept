@@ -39,8 +39,7 @@ body {
 .content {
     margin: 5%;
     text-align: left;
-    
-}
+ }
 
 .forms {
     display: block;
@@ -66,8 +65,6 @@ body {
 .nav-items li {
     display: inline;
     margin: 2%;
-    width: 100%;
-    
 }
 
 .forms p {
