@@ -18,8 +18,9 @@ body {
     font-size: 4vh;
  }
 
- p {
+ p, #autoYear {
     font-size: 2.75vh;
+    display: inline;
  }
 
  li {

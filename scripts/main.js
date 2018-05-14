@@ -3,5 +3,6 @@ function submitAlert() {
 }
 
 function copyrightYearUpdate(){
-
+    var currentYear = document.write(new Date().getFullYear());
+    document.getElementById("autoYear").innerHTML = currentYear.toString();
 }
