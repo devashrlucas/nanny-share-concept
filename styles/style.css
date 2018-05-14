@@ -76,12 +76,17 @@ body {
 }
 
 .forms label{ 
-    width:150px; 
-    
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.forms  label[for="home_toggle"],label[for="cell_toggle"],label[for="work_toggle"] { 
+    width: 50px;
+    text-align: right;
 }
 
 input[type="radio"] { 
+    display: inline-block;
     width: 5px;
-    
-    margin: 3%;
 }
