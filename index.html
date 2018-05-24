@@ -19,8 +19,7 @@
         <div class="content">
             <h3>Family Program Registration</h3>
             <p>Please fill out the form below to start the family enrollment process for the neighborhood nanny share program. 
-                The nanny share program liason will send out a questionnaire once the registration period has closed.
-                After the questionnaire responses have been sumbitted, the liason will contact you for a short phone interview.</p>
+                The nanny share program liason will contact you after the registration period has closed.
             <br>
             <br>
             <p id="note">Please note: this nanny share program only serves residents of the Westwood Heights neighborhood.</p>
@@ -31,7 +30,7 @@
         <div class="forms">
             <p>All fields are required</p><br>
             <br>
-            <form id="registration" action="/submitted.html" method="POST">
+            <form id="registration" action="/submitted.html" onsubmit="submitAlert()" method="POST">
                 <fieldset>
                     <legend>Personal Information</legend>
                     <label for="last-name">First name:</label>
@@ -73,7 +72,7 @@
                     <br>
                 </fieldset>   
                 <br>
-                <input type="submit" name="btn_submit" value="Submit" class="btn"></input>         
+                <input type="submit"  name="btn_submit" value="Submit" class="btn" id="btn_submit"></input>         
             </form>
         </div>
         <div class="footer">

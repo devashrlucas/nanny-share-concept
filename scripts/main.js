@@ -1,5 +1,5 @@
 function submitAlert() {
-    alert("Your form has been submitted.");
+    alert("Your form has been submitted");
 }
 
 function copyrightYearUpdate(){

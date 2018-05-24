@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
     width: 100%;  
 }
+
  h1 {
     margin-top: 0;
     font-size: 8vh;
@@ -36,7 +37,6 @@ body {
     padding: 1%;
     border-style: solid;
 }   
-
 
 .content {
     margin: 5%;
