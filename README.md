@@ -2,7 +2,7 @@
 
 This repository is for a simple font-end concept for a neighborhood nanny share program. This concept was designed for a fictional neighborhood. 
 
-Please note that this project does not include any server side processing of form submission data. Any data submitted via the form will not be saved. A `405` error message will be generated once the form is successfully submitted.
+Please note that this project does not include any server side processing of form submission data. "Successful" submission of the form will generate a `405` error message; please go back to the previous page to continue viewing the demo.
 
 A demo for the site can be viewed here: [http://devashrlucas.github.io/nanny-share-concept](http://devashrlucas.github.io/nanny-share-concept)
 
